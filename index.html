@@ -13,7 +13,6 @@
 		<script type="text/javascript" src="./file/love.js" charset="utf-8"></script>
 	    <style type="text/css">
         </style>
-
 </head>
     <body>
         <div id="main">
@@ -26,13 +25,9 @@
                 <div id="text">
                     <div id="code"> <font color="#FF0000"> <span class="say">Gửi em, Ngọc yêu của anh</span><br>
                       <span class="say">Em à !</span><br>
-                      <span class="say">Anh rất muốn ở bên cạnh em trong những ngày em mệt mỏi nhất.</span><br>
-                      <span class="say">Nhưng lại chẳng thể làm được...</span><br>             
-                      <span class="say">Chỉ có thể nói với qua những dòng tin nhắn thế này. </span><br>
+                      <span class="say">Anh rất muốn ở bên cạnh em trong những ngày em mệt mỏi nhất, nhưng lại chẳng thể làm được... Chỉ có thể nói với qua những dòng tin nhắn thế này</span><br>
                       <span class="say">Anh thương em lắm </span><br>
-                      <span class="say">Cảm ơn em vì đã luôn bên cạnh anh.</span><br>
-                      <span class="say">Dành sự tin tưởng cho anh</span><br>
-                      <span class="say">Dù khoảng cách có xa đến đâu anh tin một ngày gần nhất chúng ta sẽ được ở bên nhau.</span><br>
+                      <span class="say">Cảm ơn em vì đã luôn bên cạnh anh, dành sự tin tưởng cho anh, dù khoảng cách có xa đến đâu anh tin một ngày gần nhất chúng ta sẽ được ở bên nhau.</span><br>
                       <span class="say">Chúc công chúa anh...</span><br>
                       <span class="say">Luôn luôn vui vẻ</span><br>
                       <span class="say">An nhiên</span><br>
@@ -167,7 +162,7 @@
             tree.snapshot("p2", 500, 0, 610, 680);
 
             // 会有闪烁不得意这样做, (＞﹏＜)
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ") no-repeat bottom");
+            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
             canvas.css("background", "none");
