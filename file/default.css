@@ -23,6 +23,8 @@ a {
     width: 1100px;
     height: 1038px;
     margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #text {

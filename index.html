@@ -13,7 +13,7 @@
 		<script type="text/javascript" src="./file/love.js" charset="utf-8"></script>
 	    <style type="text/css">
         </style>
-        
+
 </head>
     <body>
         <div id="main">
@@ -167,7 +167,7 @@
             tree.snapshot("p2", 500, 0, 610, 680);
 
             // 会有闪烁不得意这样做, (＞﹏＜)
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ") no-repeat bottom");
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
             canvas.css("background", "none");
